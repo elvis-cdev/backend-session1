@@ -1,0 +1,19 @@
+{
+  "name": "backend-session1",
+  "version": "1.0.0",
+  "description": "Campus event registration API - Backend Engineering Journey, session 1",
+  "main": "server.js",
+  "scripts": {
+    "setup": "node setup-db.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
